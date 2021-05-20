@@ -1,0 +1,391 @@
+module.exports = `
+menu.btn.ranked rangsorolva Rangsorolva
+menu.btn.shop Bolt
+menu.btn.social Hub
+menu.btn.maps Játékok
+menu.btn.mods Modok Modok
+menu.btn.settings Beállítások
+menu.btn.customize Testreszabás
+menu.btn.invite Meghívás
+menu.btn.invite.clicked Másolva
+menu.btn.join Csatlakozás
+menu.btn.host Játékvezető játék
+menu.btn.browser Szerverek
+generic.wait Kérjük, várjon...
+generic.loading betöltés betöltés...
+generic.none Nincs
+generic.connecting CONNECTING...
+generic.select Válassza ki
+generic.delete Törlés
+generic.save Mentés
+generic.load Betöltés
+generic.search Keresés
+generic.leave Hagyja
+generic.default Alapértelmezett
+generic.submit Beküldés
+generic.create Létrehozás
+generic.random Véletlenszerű
+generic.failed Sikertelen
+generic.success Sikeres!
+generic.name Név
+generic.level Szint
+generic.score Pontszám
+generic.off Kikapcsolva
+generic.defeat DEFEAT
+generic.victory VICTORY
+settings.quality.weaponShine Fegyverek ragyogása
+settings.quality.rendGamma Gamma
+settings.quality.lighting Világítás
+settings.quality.showExplo Robbanások megjelenítése
+settings.quality.aspectRatio Képarány
+settings.post.header Utófeldolgozás
+settings.post.post Utófeldolgozás
+settings.post.bloom Virágzás
+settings.post.bloomThreshold Bloom Threshold Bloom küszöbérték
+settings.post.bloomStrength Bloom erősség
+settings.post.bloomRadius Bloom sugár
+settings.post.ssao SSAO
+settings.post.ssaoRadius SSAO Sugár SSAO sugár
+settings.interface.hitInd Találatjelzők megjelenítése
+settings.interface.hitColor Találatjelző színe
+settings.interface.dmg Damage megjelenítése
+settings.interface.dmgCol Damage Color Kárszín
+settings.interface.critCol Crit Szín
+settings.interface.header Felület
+settings.interface.scale UI Scale
+settings.interface.ui UI megjelenítése UI
+settings.interface.scoreboard Régi eredménytábla használata
+settings.interface.oldBrowser Régi böngésző használata
+settings.interface.rarityanim A ritkasági animációk kikapcsolása
+settings.interface.showPfp Profilképek megjelenítése
+settings.interface.showTradeMsg Kereskedelmi üzenetek megjelenítése
+settings.interface.hp Dinamikus HP sávok
+settings.interface.dmgScale Sebzésskála
+settings.interface.killf Kill Feed megjelenítése
+settings.interface.ping Ping Ping megjelenítése
+settings.interface.net-stats Hálózati statisztikák megjelenítése
+settings.interface.fps FPS megjelenítése
+settings.interface.deaths Halál számláló megjelenítése
+settings.interface.kd K/D számláló megjelenítése
+settings.interface.kills Kill Counter megjelenítése Kill Counter
+settings.interface.streak Mutassa a Streak számlálót
+settings.interface.score Show Score Counter
+settings.interface.spectators Nézők számláló mutatása
+settings.interface.speed Mozgássebesség megjelenítése
+settings.interface.speedOffX Sebesség X Offset
+settings.interface.speedOffY Sebesség Y Offset
+settings.interface.speedOpacity Sebesség átlátszatlanság
+settings.interface.speedScale Sebesség skála
+settings.interface.speedColor Sebesség szín (aktuális)
+settings.interface.speedColorMax Sebesség szín (Max)
+settings.interface.medals Érmek megjelenítése
+settings.interface.hideNames Névtábla megjelenítése
+settings.interface.hideNames.team Csak csapat
+settings.interface.hideNames.enemy Enemy Csak ellenség
+settings.interface.hideNames.all Mindenki Mindenki
+settings.interface.nametagStyle Névtábla stílusa
+settings.interface.nametagOpac Nametag Opacitás
+settings.interface.nametagStyle.health Csak egészség
+settings.interface.nametagStyle.name Csak név
+settings.interface.nametagStyle.nameLvl Csak név és szint
+settings.interface.nametagStyle.all Minden Minden
+settings.interface.healthNum Névtábla Egészségszám
+settings.interface.healthColT Nametag Health Color Team (Egészségügyi szín csapat)
+settings.interface.healthColE Nametag Egészség szín Ellenség
+settings.interface.xpBarCol XP sáv színe
+settings.interface.xpBarOpac XP Bar Opacitás
+settings.crosshair.header Keresztmetszet
+settings.crosshair.type Típus Típus
+settings.crosshair.type.2 Egyéni
+settings.crosshair.type.3 Réteges
+settings.crosshair.type.4 Kép
+settings.crosshair.type.5 Precizitás
+settings.crosshair.style Stílus
+settings.crosshair.style.0 Kereszt
+settings.crosshair.style.1 Üreges kör
+settings.crosshair.style.2 Tömör kör
+settings.crosshair.style.3 Üreges négyzet
+settings.crosshair.style.4 Szilárd négyzet
+settings.crosshair.image Kép
+settings.crosshair.image.paste Keresztmetszet kép
+settings.crosshair.always Mindig megjelenítése
+settings.crosshair.color Szín
+settings.crosshair.shadow.color Árnyék Szín
+settings.crosshair.shadow.thickness Árnyék vastagsága Shadow Thickness
+settings.crosshair.size Méret
+settings.crosshair.thickness Vastagság
+settings.crosshair.gap Gap
+settings.crosshair.dot Pont Pont
+settings.crosshair.opacity.use Egyéni átlátszatlanság használata
+settings.crosshair.opacity.custom Egyéni átlátszatlanság
+settings.hitmarker.header Hitmarker
+settings.hitmarker.color Szín
+settings.hitmarker.kcolor Gyilkos szín
+settings.hitmarker.thickness Vastagság Vastagság
+settings.hitmarker.opacity Átlátszóság
+settings.hitmarker.leng Hosszúság
+settings.hitmarker.spacing Távolság Távolság
+settings.hitmarker.animD Anim Méret
+settings.hitmarker.animS Anim sebesség
+settings.hitmarker.hitm Megjelenítés
+settings.hitmarker.hitmFad Fade Sebesség
+settings.hitmarker.custom Hitmarker kép
+settings.hitmarker.custom.paste Hitmarker kép URL címe
+settings.onKillS.style.0 Alapértelmezett
+settings.onKillS.style.1 Felbontás csökkentése
+settings.onKillS.style.2 FOV csökkentése
+settings.onKillS.style.3 FOV növelése
+settings.serverb.header Kiszolgáló böngésző
+settings.serverb.oldBrowser Hagyományos böngésző
+settings.serverb.defaultRegionOnly Csak alapértelmezett régió
+settings.gameprivacy.header Játékos adatvédelem
+settings.gameprivacy.streamer Streamer mód
+settings.gameprivacy.anon Névtelen mód
+settings.gameprivacy.hideGameTitle Játékcím elrejtése
+settings.gameplay.header Játékmenet
+settings.gameplay.sensitivityX X X érzékenység
+settings.gameplay.sensitivityY Y érzékenység Y érzékenység
+settings.gameplay.aimsensX Célzás X érzékenység
+settings.gameplay.aimsensY Célzás Y érzékenység
+settings.gameplay.challenge Kihívás mód
+settings.gameplay.invert Y tengely invertálása
+settings.gameplay.onkillS On Kill
+settings.gameplay.scrollDir Gördülési irány
+settings.controller.header Vezérlő
+settings.controller.sensitivityX X X érzékenység
+settings.controller.disableCons Vezérlők letiltása
+settings.controller.sens
+generic.matchover MATCH OVER
+generic.matchaband MATCH ABANDONED
+generic.follow Follow Follow
+generic.unfollow Unfollow
+generic.followers Követők
+generic.following követés
+generic.games Játékok
+generic.wins Győzelmek
+generic.lose Veszteségek
+generic.clan Klán
+generic.games.played Lejátszott játékok
+generic.games.won Nyert játékok
+generic.games.lost Elveszett játékok
+generic.timep Lejátszott idő
+generic.kills Kills
+generic.deaths Halálok
+generic.kdr KDR
+generic.time Idő
+generic.logout Kijelentkezés
+generic.logout.sessions Minden ülés kijelentkezése
+generic.username Felhasználónév megadása
+generic.password Jelszó megadása
+generic.register Regisztráció
+generic.login Bejelentkezés
+generic.accuracy Pontosság
+player.waiting játékosok várakozása
+player.died Meghaltál
+player.killed Megölte
+player.killstreak {0} egy {1} Kill Streak
+player.inactive Kicked inaktivitás miatt
+player.disconnect MEGSZAKÍTOTTAD A játékos
+timer.end Következő forduló {0}
+leaderboard.empty Üres lobby
+popup.checkpoint Ellenőrzőpont!
+app.play KATTINTSON A JÁTÉKHOZ
+app.spectate KATTINTSON KATTINTSON A KÉPZELÉSHEZ
+app.play.mobile KATTINTSON A JÁTÉKHOZ
+app.spectate.mobile KATTINTSON A KÉPZELÉSRE
+app.play.controller PRESS START
+app.spectate.controller START a SPECTATE-hez
+purchase.error Hiba történt
+purchase.error.click kattintson ide</a> és próbálja meg újra!
+purchase.error.limit Lehet, hogy túllépte a napi tranzakciós limitet.
+settings.reset Reset Visszaállítás
+settings.reset.confirm Biztos, hogy vissza akarja állítani az összes beállítását?
+settings.import Importálás Importálás
+settings.export Exportálás
+settings.none Nem találtak beállításokat
+settings.backup Beállítások biztonsági mentése
+settings.controls.change billentyűzetkötések
+settings.controls.press Bármilyen billentyű lenyomása
+settings.local.header Lokalizáció <span id="requiresRestart"><span style="color: #eb5656">*</span> újraindítást igényel</span>
+settings.local.region Alapértelmezett régió
+settings.local.lang Nyelv
+settings.network.header Hálózat
+settings.network.sendRate Magas Tickrate
+settings.network.netRerouting Automatikus útválasztás (befolyásolja a pinget)
+settings.network.lagComp Lag kompenzáció
+settings.popup.header Popupok
+settings.popup.freeKRPop Ingyenes KR felugró ablak megjelenítése
+settings.experimental.header Kísérleti
+settings.experimental.aimFreezeFix Aim Freeze Fix (Cél befagyasztás javítása)
+settings.experimental.mouseFlickFix Egeres kattintás rögzítése
+settings.experimental.shaderRendering Instance renderelés
+settings.client.header Ügyfél
+settings.client.unlimitedFrames Korlátlan FPS
+settings.client.gameCap Játékrögzítés
+settings.client.experimental Kísérleti funkciók
+settings.client.discordRPC Discord RPC
+settings.client.resourceSwapper Erőforrás csereforrás csere
+settings.client.clearCache Gyorsítótár törlése
+settings.client.resetSettings Ügyfélbeállítások visszaállítása
+settings.client.acceleratedCanvas Gyorsított vászon
+settings.client.angleBackend ANGLE grafikus háttértár
+settings.client.colorProfile Színprofil
+settings.dev.header Fejlesztő
+settings.dev.forceUpdate Skins frissítésének kikényszerítése
+settings.dev.forceRegen Mindig újratermeli a lejátszót
+settings.dev.extraBan Extra tiltási információ
+settings.chat.header Chat
+settings.chat.chat Csevegődoboz megjelenítése
+settings.chat.chat.all Mindig
+settings.chat.chat.focus Fókuszálva
+settings.chat.messages Játékos üzenetek megjelenítése
+settings.chat.unboxings dobozolások dobozolások megjelenítése
+settings.chat.chatOp Csevegés átlátszatlansága
+settings.chat.chatBGOp Csevegés BG átlátszatlansága
+settings.chat.chatHeight Csevegés magassága
+settings.chat.chatTimer Chat időzítő (s)
+settings.chat.chatTextOutline Csevegő szöveg körvonala
+settings.chat.chatFilter Profanity szűrő
+settings.quality.header Teljesítmény
+settings.quality.updRate Kerethatár
+settings.quality.rendDst Renderelési távolság
+settings.quality.res Felbontás
+settings.quality.part Particles részecskék
+settings.quality.mapDet Térkép részletek
+settings.quality.noTex Nincsenek textúrák
+settings.quality.partdist részecsketávolság
+settings.quality.renderdist Renderelési távolság
+settings.quality.reflection Tükröződés minősége
+settings.quality.antiAlias Antialiasing
+settings.quality.shadows Árnyékok
+settings.quality.softShad Lágy árnyékok
+settings.quality.highResShad Nagy felbontású árnyékok
+settings.quality.shadowsDynamic Dinamikus dinamikus árnyékok
+settings.quality.trails Golyónyomok
+settings.quality.yourTrails Az Ön nyomvonalai
+settings.quality.mflash Torkolattűzvillanás
+settings.quality.flap Sniper Flap megjelenítése
+settings.quality.lowSpec Alacsony specifikáció
+settings.quality.ambient Környezeti árnyékolás
+settings.quality.ambientOld Régi árnyékolás (ha lehetséges)
+settings.quality.textureAnim Textúra animációk
+
+settings.controller.aimsensX Célzás X érzékenység
+settings.controller.aimsensY Célzás Y érzékenység
+settings.controller.deadZoneL Holt zóna (balra)
+settings.controller.deadZoneR Holt zóna (jobbra)
+settings.controller.triggerThres Kioldási küszöbérték
+settings.controller.vibration Rezgés Rezgés
+settings.controller.gradSpeed Fokozatos sebesség
+settings.controller.invert Y tengely invertálása
+settings.mobile.header Mobil
+settings.mobile.sensitivityX X X érzékenység
+settings.mobile.sensitivityY Y érzékenység Y érzékenység
+settings.mobile.aimsensX Célzás X érzékenység
+settings.mobile.aimsensY Cél Y érzékenység
+settings.mobile.vibration Rezgés Rezgés
+settings.mobile.gradSpeed Fokozatos sebesség
+settings.mobile.invert Y tengely invertálása
+settings.audio.header Audio
+settings.audio.sound Fő hangerő
+settings.audio.ambient Környezeti hangerő
+settings.audio.voice Hang hangerő
+settings.audio.weps Fegyver hangerő
+settings.audio.player Player Player hangerő
+settings.audio.skin Kozmetika hangerő
+settings.audio.ui UI UI hangerő
+settings.audio.asset Asset eszköz hangerő
+settings.audio.dialogue Action hangerő
+settings.viewmodel.header Nézetmodell
+settings.viewmodel.fov Látómező
+settings.viewmodel.fps Fegyver FOV
+settings.viewmodel.bobbing Fegyver bobbing
+settings.viewmodel.leaning Fegyver dőlése
+settings.viewmodel.show.primary Elsődleges megjelenítése
+settings.viewmodel.show.secondary Secondary megjelenítése Secondary megjelenítése
+settings.viewmodel.roundArms Kerekített fegyverek
+settings.viewmodel.show.melee Közelharc megjelenítése Melee megjelenítése
+settings.viewmodel.show.ads Fegyver elrejtése ADS esetén
+settings.viewmodel.toggleAim Célzás váltása Toggle Aim
+settings.viewmodel.show.hands Kéz megjelenítése Kéz megjelenítése
+settings.viewmodel.leftHand Balkezes
+settings.viewmodel.aimAnim Fegyver célzási animáció
+settings.viewmodel.rot Fegyver forgatása
+settings.viewmodel.xOff Fegyver X eltolás
+settings.viewmodel.yOff Fegyver Y eltolás
+settings.viewmodel.zOff Fegyver Z Offset
+settings.viewmodel.weapSwapY Fegyvercsere Y
+settings.viewmodel.weapReloadY Fegyver újratöltés Y
+settings.viewmodel.yOffADS Fegyver ADS Y Offset
+settings.viewmodel.adsFovMlt ADS FOV teljesítménye
+settings.editing.header Editing
+settings.editing.health.high HUD Health High (magas)
+settings.editing.health.low HUD Health Low (HUD egészség alacsony)
+settings.editing.speedLines Sebesség vonalak
+settings.editing.spdLinesCol Sebességvonalak színe
+settings.editing.score.color Popup Score Color Popup Score Color
+settings.editing.score.show Popup pontszám megjelenítése
+settings.editing.score.scale Popup pontszám skála
+settings.editing.score.shadow Popup Score Shadow Popup Score Shadow
+settings.editing.scoreOffX Popup Score X eltolás
+settings.editing.scoreOffY Popup Score Y eltolás
+settings.editing.prog.color Progress Bar Color (Haladás sáv színe)
+settings.editing.prog.opacity Progress Bar Opacity (Haladás sáv átlátszatlansága)
+settings.editing.prog.scale Progress Bar Scale (Haladás sáv skála)
+settings.editing.prog.shadow Progress Bar Árnyék
+settings.editing.progOffX Progress Bar X eltolás
+settings.editing.progOffY Progress Bar Y offset
+settings.editing.progRot Progress Bar Rotation (Elforgatás)
+settings.editing.progm.color Töltéssor színe
+settings.editing.progm.opacity Töltéssor átlátszatlanság
+settings.editing.progm.scale Töltéssor méretaránya
+settings.editing.progm.shadow Töltéssor árnyék
+settings.editing.progmOffX Töltéssor X eltolás
+settings.editing.progmOffY Charge Bar Y Offset (töltéssáv Y eltolás)
+settings.editing.progmRot Töltéssor forgatás
+settings.editing.saturation Telítettség (játékon belül)
+settings.editing.menuSaturation Telítettség (felhasználói felület)
+settings.editing.hue Színárnyalat Színárnyalat (játékon belül)
+settings.editing.menuHue Színárnyalat (UI)
+settings.editing.vignette Vignette (Vignetta)
+settings.editing.feedLimit Killfeed Limit (Megölés határértéke)
+settings.editing.depth Mélységtérkép
+settings.editing.green Zöld képernyő
+settings.editing.tracercol Bullet Tracerek
+settings.editing.tracer Bullet Tracers golyónyomkövetők
+settings.editing.tracer.offset Tracer Offset
+settings.shaders.header Shader bemenetek
+settings.mods.header Testreszabás
+settings.mods.load Modok betöltése
+settings.mods.logo Logóváltások engedélyezése
+settings.mods.auto Automatikus mod betöltése
+settings.mods.borders Scope Borders (határok)
+settings.mods.borderCol Terjedelmi határok
+settings.mods.borderOpac Scope Borders Opacity (határok átlátszatlansága)
+settings.mods.scope Scope kép
+settings.mods.scope.paste Scope kép URL címe
+settings.mods.scope.opacity Scope Opacity
+settings.mods.scope.width Scope Kép szélessége
+settings.mods.scope.height Scope Kép magassága
+settings.mods.dot Reticle kép
+settings.mods.dot.width Reticle kép szélessége
+settings.mods.dot.height Reticle Image Magassága
+settings.mods.dot.paste Reticle URL cím
+settings.mods.endmessage Match End Message (Üzenet vége)
+settings.mods.profile Profil kép
+settings.mods.profile.paste Profilkép URL címe
+settings.mods.ammo Lőszer ikon kép
+settings.mods.ammo.paste Lőszer ikon kép URL címe
+settings.mods.kills Kills ikon kép
+settings.mods.kills.paste Kills Icon Image URL
+settings.mods.deaths Halálok Halálok ikon kép
+settings.mods.deaths.paste Halálok ikonja Kép URL
+settings.mods.streak Streak számláló ikon kép
+settings.mods.streak.paste Streak Counter Icon Image URL
+settings.mods.timer Időzítő ikon kép
+settings.mods.timer.paste Időzítő ikon kép URL
+settings.mods.usedamage Kárfelület használata
+settings.mods.damage Damage Overlay kép
+settings.mods.damage.paste Damage Overlay kép URL címe
+settings.mods.overlay játék overlay kép
+settings.mods.overlay.paste Game Overlay Image
